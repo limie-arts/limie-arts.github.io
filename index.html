@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Limie.Arts — Digital Art & Character Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">🍋 Limie.Arts</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#socials">Socials</a></li>
+      <li><a href="#commissions">Commissions</a></li>
+      <li><a href="#will-do">Will Do</a></li>
+      <li><a href="#jellies">Jellies</a></li>
+      <li><a href="#tos">TOS</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- ══════════════════════════════
+     HERO — full-bleed cinematic
+══════════════════════════════ -->
+<section class="hero" id="hero">
+  <!-- REPLACE: swap hero-art.png with your full character illustration -->
+  <div class="hero-visual">
+    <img
+      src="assets/hero-art.png"
+      alt="Limie mascot art"
+      onerror="this.outerHTML='<div class=\'hero-ph placeholder-box ph-hero\'>🍋<br/><small>assets/hero-art.png</small></div>'"
+    />
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge">✦ Digital Art & Character Design</div>
+    <h1 class="hero-title">Hi, I'm <span class="accent">Limie</span> 🍈</h1>
+    <p class="hero-sub">
+      Furries, anthros & character designs.<br />
+      Welcome to my cozy corner of the internet.
+    </p>
+    <div class="hero-buttons">
+      <a href="#commissions" class="btn btn-primary">View Commissions</a>
+      <a href="#socials" class="btn btn-ghost">Find me online</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════
+     SOCIALS
+══════════════════════════════ -->
+<section class="section" id="socials">
+  <div class="container--narrow">
+    <span class="section-eyebrow">Find me online</span>
+    <h2 class="section-title">My Socials</h2>
+    <p class="section-sub">Follow along for new art, WIPs, and updates ✨</p>
+
+    <div class="socials-grid">
+      <!-- REPLACE: update href with your real profile URLs & @handle -->
+      <a href="https://instagram.com/YOUR_HANDLE" target="_blank" class="social-card" style="--c:#E1306C">
+        <div class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </div>
+        <div class="social-text">
+          <div class="social-name">Instagram</div>
+          <div class="social-handle">@YOUR_HANDLE</div>
+        </div>
+        <div class="social-arrow">→</div>
+      </a>
+
+      <a href="https://patreon.com/YOUR_HANDLE" target="_blank" class="social-card" style="--c:#FF424D">
+        <div class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.82 2.41c3.96 0 7.18 3.24 7.18 7.21 0 3.96-3.22 7.18-7.18 7.18-3.97 0-7.21-3.22-7.21-7.18 0-3.97 3.24-7.21 7.21-7.21M2 21.6h3.5V2.41H2V21.6z"/></svg>
+        </div>
+        <div class="social-text">
+          <div class="social-name">Patreon</div>
+          <div class="social-handle">@YOUR_HANDLE</div>
+        </div>
+        <div class="social-arrow">→</div>
+      </a>
+
+      <a href="https://bsky.app/profile/YOUR_HANDLE" target="_blank" class="social-card" style="--c:#0085FF">
+        <div class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z"/></svg>
+        </div>
+        <div class="social-text">
+          <div class="social-name">BlueSky</div>
+          <div class="social-handle">@YOUR_HANDLE</div>
+        </div>
+        <div class="social-arrow">→</div>
+      </a>
+
+      <a href="https://www.furaffinity.net/user/YOUR_HANDLE" target="_blank" class="social-card" style="--c:#FAAF3A">
+        <div class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.025.329L1.624 4.73a2.503 2.503 0 0 0 0 3.536l.002.001 5.127 5.128a2.504 2.504 0 0 0 3.537 0l4.4-4.401a2.504 2.504 0 0 0 0-3.537L9.561.329a2.503 2.503 0 0 0-3.536 0zm11.95 11.95l-4.4 4.4a2.503 2.503 0 0 0 0 3.537l.001.001.002.002 4.4 4.4a2.504 2.504 0 0 0 3.537 0l.001-.001 4.4-4.4a2.504 2.504 0 0 0 0-3.537l-.001-.001-4.4-4.4a2.504 2.504 0 0 0-3.54-.001zm-11.95 0a2.503 2.503 0 0 0-3.536 0L.087 14.681a2.504 2.504 0 0 0 0 3.537l4.4 4.4a2.504 2.504 0 0 0 3.537 0l4.4-4.4a2.504 2.504 0 0 0 0-3.537l-4.4-4.4v-.001z"/></svg>
+        </div>
+        <div class="social-text">
+          <div class="social-name">FurAffinity</div>
+          <div class="social-handle">@YOUR_HANDLE</div>
+        </div>
+        <div class="social-arrow">→</div>
+      </a>
+
+      <a href="https://tiktok.com/@YOUR_HANDLE" target="_blank" class="social-card" style="--c:#010101">
+        <div class="social-icon">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V9.02a8.19 8.19 0 0 0 4.79 1.52V7.1a4.85 4.85 0 0 1-1.02-.41z"/></svg>
+        </div>
+        <div class="social-text">
+          <div class="social-name">TikTok</div>
+          <div class="social-handle">@YOUR_HANDLE</div>
+        </div>
+        <div class="social-arrow">→</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════
+     WILL DO / WON'T DO
+══════════════════════════════ -->
+<section class="section bg-soft" id="will-do">
+  <div class="container--narrow">
+    <span class="section-eyebrow">Before you order</span>
+    <h2 class="section-title">What I Draw</h2>
+    <p class="section-sub">A quick overview of my comfort zone 🎨</p>
+
+    <div class="wills-wrap">
+      <div class="will-panel will-yes-panel">
+        <div class="will-panel-head">
+          <span class="will-panel-icon">✅</span>
+          <h3>Will Draw</h3>
+        </div>
+        <ul>
+          <li>Furries &amp; anthros</li>
+          <li>Small mecha parts &amp; armor</li>
+          <li>Suggestive content</li>
+          <li>NSFW</li>
+          <li>Some kinks <em>(just ask!)</em></li>
+          <li>Soft gore</li>
+        </ul>
+      </div>
+      <div class="will-panel will-no-panel">
+        <div class="will-panel-head">
+          <span class="will-panel-icon">❌</span>
+          <h3>Won't Draw</h3>
+        </div>
+        <ul>
+          <li>Heavy kinks</li>
+          <li>Hateful / political content</li>
+          <li>Species without access rights</li>
+          <li>Heavy gore</li>
+          <li>Robots</li>
+          <li>Feral</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="addons-strip">
+      <h3>➕ Add-ons</h3>
+      <div class="addons-pills">
+        <div class="addon-pill">Extra character <span>+100%</span></div>
+        <div class="addon-pill">NSFW <span>+20–40%</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════
+     COMMISSIONS
+══════════════════════════════ -->
+<section class="section" id="commissions">
+  <div class="container">
+    <div class="container--narrow" style="padding:0">
+      <span class="section-eyebrow">Open for orders</span>
+      <h2 class="section-title">Commissions</h2>
+      <p class="section-sub">All payments via PayPal · Commissioning me = agreeing to my <a href="#tos" class="comm-tos-link">T.O.S.</a></p>
+    </div>
+
+    <!-- Currency toggle -->
+    <div class="curr-row">
+      <div class="ctoggle">
+        <button class="cb on" onclick="setCur('eur',this)">🇪🇺 EUR</button>
+        <button class="cb" onclick="setCur('usd',this)">🇺🇸 USD</button>
+      </div>
+    </div>
+
+    <!-- Category tabs -->
+    <div class="comm-tabs">
+      <button class="comm-tab on" onclick="showTab('chibis',this)">🐣 Chibis</button>
+      <button class="comm-tab" onclick="showTab('icons',this)">🔵 Icons</button>
+      <button class="comm-tab" onclick="showTab('busts',this)">👤 Busts</button>
+      <button class="comm-tab" onclick="showTab('hips',this)">🧍 Hips Up</button>
+      <button class="comm-tab" onclick="showTab('fullbody',this)">🌟 Fullbody</button>
+      <button class="comm-tab" onclick="showTab('refs',this)">📄 References</button>
+      <button class="comm-tab" onclick="showTab('customs',this)">🎭 Customs</button>
+      <button class="comm-tab" onclick="showTab('jellis',this)">🫧 Jelli Customs</button>
+    </div>
+
+    <!-- ── CHIBIS ── -->
+    <div id="tp-chibis" class="tab-panel on">
+      <div class="price-grid">
+        <div class="pc" onclick="openLb('Chibi','35',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/chibi-chibi.png -->
+            <div class="art-ph"><div class="phi">🐣</div><div class="phl">chibi-chibi.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Chibi</span><h3>Chibi</h3><div class="price" data-eur="35" data-usd="38">35<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Flat Color Chibi','40',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/chibi-flat.png -->
+            <div class="art-ph tp"><div class="phi">🐣</div><div class="phl">chibi-flat.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Chibi</span><h3>Flat Color</h3><div class="price" data-eur="40" data-usd="44">40<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Shaded Chibi','50',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/chibi-shaded.png -->
+            <div class="art-ph pp"><div class="phi">🐣✨</div><div class="phl">chibi-shaded.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Chibi</span><h3>Shaded</h3><div class="price" data-eur="50" data-usd="55">50<span class="s">€</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── ICONS ── -->
+    <div id="tp-icons" class="tab-panel">
+      <div class="price-grid">
+        <div class="pc" onclick="openLb('Sketchy Icon','20',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/icon-sketchy.png -->
+            <div class="art-ph"><div class="phi">✏️</div><div class="phl">icon-sketchy.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Icon</span><h3>Sketchy</h3><div class="price" data-eur="20" data-usd="22">20<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Flat Color Icon','30',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/icon-flat.png -->
+            <div class="art-ph tp"><div class="phi">🎨</div><div class="phl">icon-flat.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Icon</span><h3>Flat Color</h3><div class="price" data-eur="30" data-usd="33">30<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Shaded Icon','40',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/icon-shaded.png -->
+            <div class="art-ph pkp"><div class="phi">🎨✨</div><div class="phl">icon-shaded.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Icon</span><h3>Shaded</h3><div class="price" data-eur="40" data-usd="44">40<span class="s">€</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── BUSTS ── -->
+    <div id="tp-busts" class="tab-panel">
+      <div class="price-grid">
+        <div class="pc" onclick="openLb('Sketchy Bust','25',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/bust-sketchy.png -->
+            <div class="art-ph"><div class="phi">✏️</div><div class="phl">bust-sketchy.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Bust</span><h3>Sketchy</h3><div class="price" data-eur="25" data-usd="28">25<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Flat Color Bust','40',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/bust-flat.png -->
+            <div class="art-ph tp"><div class="phi">🎨</div><div class="phl">bust-flat.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Bust</span><h3>Flat Color</h3><div class="price" data-eur="40" data-usd="44">40<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Shaded Bust','55',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/bust-shaded.png -->
+            <div class="art-ph pp"><div class="phi">🎨✨</div><div class="phl">bust-shaded.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Bust</span><h3>Shaded</h3><div class="price" data-eur="55" data-usd="61">55<span class="s">€</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── HIPS UP ── -->
+    <div id="tp-hips" class="tab-panel">
+      <div class="price-grid">
+        <div class="pc" onclick="openLb('Sketchy Hips Up','35',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/hipsup-sketchy.png -->
+            <div class="art-ph sp"><div class="phi">✏️</div><div class="phl">hipsup-sketchy.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Hips Up</span><h3>Sketchy</h3><div class="price" data-eur="35" data-usd="39">35<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Flat Color Hips Up','55',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/hipsup-flat.png -->
+            <div class="art-ph pkp"><div class="phi">🎨</div><div class="phl">hipsup-flat.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Hips Up</span><h3>Flat Color</h3><div class="price" data-eur="55" data-usd="61">55<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Shaded Hips Up','70',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/hipsup-shaded.png -->
+            <div class="art-ph tp"><div class="phi">🎨✨</div><div class="phl">hipsup-shaded.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Hips Up</span><h3>Shaded</h3><div class="price" data-eur="70" data-usd="77">70<span class="s">€</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── FULLBODY ── -->
+    <div id="tp-fullbody" class="tab-panel">
+      <div class="price-grid">
+        <div class="pc" onclick="openLb('Sketchy Fullbody','40',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/full-sketchy.png -->
+            <div class="art-ph"><div class="phi">✏️</div><div class="phl">full-sketchy.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Fullbody</span><h3>Sketchy</h3><div class="price" data-eur="40" data-usd="44">40<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Flat Color Fullbody','60',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/full-flat.png -->
+            <div class="art-ph pp"><div class="phi">🎨</div><div class="phl">full-flat.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Fullbody</span><h3>Flat Color</h3><div class="price" data-eur="60" data-usd="66">60<span class="s">€</span></div></div>
+        </div>
+        <div class="pc" onclick="openLb('Shaded Fullbody','90',this)">
+          <div class="pc-img">
+            <!-- REPLACE: assets/comm/full-shaded.png -->
+            <div class="art-ph sp"><div class="phi">🎨✨</div><div class="phl">full-shaded.png</div><div class="phb">+ Upload</div></div>
+            <span class="zoom-h">🔍 Zoom</span>
+          </div>
+          <div class="pc-body"><span class="pc-lbl">Fullbody</span><h3>Shaded</h3><div class="price" data-eur="90" data-usd="99">90<span class="s">€</span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── REFERENCES — carousel ── -->
+    <div id="tp-refs" class="tab-panel">
+      <div class="carousel-wrap">
+        <button class="car-btn car-prev" onclick="carMove('refs',-1)" aria-label="Previous">‹</button>
+        <div class="carousel" id="car-refs">
+          <div class="pc car-item" onclick="openLb('Reference Sheet — All up to you!','Open to discuss',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/refsheet-1.png -->
+              <div class="art-ph sp" style="aspect-ratio:4/3"><div class="phi">📄</div><div class="phl">refsheet-1.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Reference Sheet</span><h3>All up to you!</h3><div class="price-open">Open to discuss 💬</div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Reference Sheet — 1 fullbody + clothes','100',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/refsheet-2.png -->
+              <div class="art-ph tp" style="aspect-ratio:4/3"><div class="phi">📄</div><div class="phl">refsheet-2.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Reference Sheet</span><h3>1 fullbody + clothes version</h3><div class="price" data-eur="100" data-usd="110">100<span class="s">€</span></div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Reference Sheet — fullbody + clothes + close ups','115',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/refsheet-3.png -->
+              <div class="art-ph pp" style="aspect-ratio:4/3"><div class="phi">📄</div><div class="phl">refsheet-3.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Reference Sheet</span><h3>1 fullbody + clothes + close ups</h3><div class="price" data-eur="115" data-usd="127">115<span class="s">€</span></div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Reference Sheet — Example 4','Open to discuss',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/refsheet-4.png -->
+              <div class="art-ph pkp" style="aspect-ratio:4/3"><div class="phi">📄</div><div class="phl">refsheet-4.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Reference Sheet</span><h3>Example 4</h3><div class="price-open">Open to discuss 💬</div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Reference Sheet — Example 5','Open to discuss',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/refsheet-5.png -->
+              <div class="art-ph" style="aspect-ratio:4/3"><div class="phi">📄</div><div class="phl">refsheet-5.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Reference Sheet</span><h3>Example 5</h3><div class="price-open">Open to discuss 💬</div></div>
+          </div>
+        </div>
+        <button class="car-btn car-next" onclick="carMove('refs',1)" aria-label="Next">›</button>
+      </div>
+      <div class="car-dots" id="dots-refs"></div>
+    </div>
+
+    <!-- ── CUSTOMS — carousel ── -->
+    <div id="tp-customs" class="tab-panel">
+      <div class="carousel-wrap">
+        <button class="car-btn car-prev" onclick="carMove('customs',-1)" aria-label="Previous">‹</button>
+        <div class="carousel" id="car-customs">
+          <div class="pc car-item" onclick="openLb('Custom — By Hand','70',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/custom-1.png -->
+              <div class="art-ph pp"><div class="phi">🎭</div><div class="phl">custom-1.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Custom / Redesign</span><h3>By Hand</h3><div class="price" data-eur="70" data-usd="77">From 70<span class="s">€</span></div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Custom — On Personal Base','35',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/custom-2.png -->
+              <div class="art-ph tp"><div class="phi">🎭</div><div class="phl">custom-2.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Custom / Redesign</span><h3>On Personal Base</h3><div class="price" data-eur="35" data-usd="39">From 35<span class="s">€</span></div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Custom — Example 3','50',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/custom-3.png -->
+              <div class="art-ph sp"><div class="phi">🎭</div><div class="phl">custom-3.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Custom / Redesign</span><h3>Example 3</h3><div class="price" data-eur="50" data-usd="55">From 50<span class="s">€</span></div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Custom — Example 4','50',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/custom-4.png -->
+              <div class="art-ph pkp"><div class="phi">🎭</div><div class="phl">custom-4.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Custom / Redesign</span><h3>Example 4</h3><div class="price" data-eur="50" data-usd="55">From 50<span class="s">€</span></div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Custom — Example 5','50',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/custom-5.png -->
+              <div class="art-ph"><div class="phi">🎭</div><div class="phl">custom-5.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Custom / Redesign</span><h3>Example 5</h3><div class="price" data-eur="50" data-usd="55">From 50<span class="s">€</span></div></div>
+          </div>
+        </div>
+        <button class="car-btn car-next" onclick="carMove('customs',1)" aria-label="Next">›</button>
+      </div>
+      <div class="car-dots" id="dots-customs"></div>
+    </div>
+
+    <!-- ── JELLI CUSTOMS ── -->
+    <div id="tp-jellis" class="tab-panel">
+      <div class="jelli-comm-intro">
+        <div class="jelli-comm-blob"></div>
+        <div class="jelli-comm-vis" onclick="openLb('Jelli Custom example','',this)">
+          <!-- REPLACE: assets/comm/jelli-hero.png -->
+          <div class="art-ph" style="width:100%;aspect-ratio:1/1;border-radius:50%"><div class="phi" style="font-size:3rem">🫧</div><div class="phl">jelli-hero.png</div><div class="phb">+ Upload</div></div>
+        </div>
+        <div class="jelli-comm-text">
+          <h3>🫧 Jelli Customs</h3>
+          <p>Want your very own Jelli character? I offer two ways to get one — on a personal base or fully hand-drawn from scratch!</p>
+          <div class="jelli-price-row">
+            <div class="jelli-price-card">
+              <span class="jpc-label">On Personal Base</span>
+              <span class="jpc-price price" data-eur="45" data-usd="50">45<span class="s">€</span></span>
+              <span class="jpc-note">DM me to claim a slot!</span>
+            </div>
+            <div class="jelli-price-card">
+              <span class="jpc-label">By Hand</span>
+              <span class="jpc-price price" data-eur="80" data-usd="88">80<span class="s">€</span>+</span>
+              <span class="jpc-note">Hand-drawn from scratch</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-wrap" style="margin-top:1.5rem">
+        <button class="car-btn car-prev" onclick="carMove('jellis',-1)" aria-label="Previous">‹</button>
+        <div class="carousel" id="car-jellis">
+          <div class="pc car-item" onclick="openLb('Jelli Custom — On Base 1','45',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/jelli-1.png -->
+              <div class="art-ph tp"><div class="phi">🫧</div><div class="phl">jelli-1.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Jelli Custom</span><h3>On Base</h3><div class="price" data-eur="45" data-usd="50">45<span class="s">€</span></div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Jelli Custom — By Hand 1','80',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/jelli-2.png -->
+              <div class="art-ph pp"><div class="phi">🫧✍️</div><div class="phl">jelli-2.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Jelli Custom</span><h3>By Hand</h3><div class="price" data-eur="80" data-usd="88">80<span class="s">€</span>+</div></div>
+          </div>
+          <div class="pc car-item" onclick="openLb('Jelli Custom — Example 3','Open to discuss',this)">
+            <div class="pc-img">
+              <!-- REPLACE: assets/comm/jelli-3.png -->
+              <div class="art-ph sp"><div class="phi">🫧</div><div class="phl">jelli-3.png</div><div class="phb">+ Upload</div></div>
+              <span class="zoom-h">🔍 Zoom</span>
+            </div>
+            <div class="pc-body"><span class="pc-lbl">Jelli Custom</span><h3>Example 3</h3><div class="price-open">Open to discuss 💬</div></div>
+          </div>
+        </div>
+        <button class="car-btn car-next" onclick="carMove('jellis',1)" aria-label="Next">›</button>
+      </div>
+      <div class="car-dots" id="dots-jellis"></div>
+    </div>
+
+    <div class="comm-dm">Don't see what you're looking for? <strong>DM me! ❤</strong> I'm flexible and love discussing new ideas!</div>
+  </div>
+</section>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── JELLI CUSTOMS ── -->
+<!-- ══════════════════════════════
+     JELLIES
+══════════════════════════════ -->
+<section class="section" id="jellies">
+  <div class="wrap">
+    <div class="sec-top center">
+      <span class="section-eyebrow">✦ Closed species ✦</span>
+      <h2 class="section-title">Meet the <span class="accent">Jellies</span> 🫧</h2>
+      <p class="section-sub">My very own species — squishy, glowy, and full of personality!</p>
+    </div>
+
+    <!-- Intro: floating image + text card -->
+    <div class="jintro">
+      <div class="jintro-inner">
+        <div class="jintro-text">
+          <h3>🧊 Who are Jellies?</h3>
+          <p>Jellies are a closed species where personality and AU are completely flexible — your imagination is the only limit! Their jelly parts work like a lava lamp: they <strong>glow and have moving bubbles</strong>. Any animal or fantasy species can be a Jelli, with any body type, age, or height welcomed!</p>
+        </div>
+        <div class="jintro-stage">
+          <div class="jintro-blob"></div>
+          <div class="jelly-vis" onclick="openLb('Jellies example','',this)">
+            <!-- REPLACE: assets/jellies/jelli1.png -->
+            <div class="art-ph" style="width:100%;aspect-ratio:1/1;border-radius:50%"><div class="phi" style="font-size:3rem">🫧</div><div class="phl">assets/jellies/jelli1.png</div><div class="phb">+ Upload</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Traits -->
+    <p class="subh tl">🔍 How to spot a Jelli?</p>
+    <div class="traits">
+      <div class="trait"><div class="ti">🔱</div><h4>Horns</h4><p>Always 2+ horns — from giant to tiny, always made from jelly!</p></div>
+      <div class="trait"><div class="ti">✨</div><h4>Jelly Spots</h4><p>Small jelly spots on the face — can be any shape!</p></div>
+      <div class="trait"><div class="ti">🫧</div><h4>Jelly Tail</h4><p>All Jellies have a jelly tail — sometimes subtle, but always there!</p></div>
+      <div class="trait"><div class="ti">💎</div><h4>Jelly Parts</h4><p>Any part of the body can be jelly — any color, even multiple!</p></div>
+      <div class="trait"><div class="ti">👁️</div><h4>Eyes</h4><p>Eyes always match the jelly color!</p></div>
+      <div class="trait"><div class="ti">🐾</div><h4>Species</h4><p>Deer? Fish? Dragon? Any species can be a Jelli!</p></div>
+    </div>
+
+    <!-- Comparison: Jellies × UniAlies -->
+    <p class="subh">Jellies × UniAlies</p>
+    <div class="cmp">
+      <div class="spc j">
+        <div class="spc-stage">
+          <div class="spc-blob"></div>
+          <div class="spc-img" onclick="openLb('Jellies example','',this)">
+            <!-- REPLACE: assets/jellies/jelli3.png -->
+            <div class="art-ph" style="width:100%;aspect-ratio:1/1;border-radius:50%"><div class="phi" style="font-size:2.5rem">🫧</div><div class="phl">assets/jellies/jelli3.png</div><div class="phb">+ Upload</div></div>
+          </div>
+        </div>
+        <div class="spc-body">
+          <h3>Jellies</h3>
+          <span class="spc-badge">Closed species — available</span>
+          <ul class="stl">
+            <li>2 or more horns</li>
+            <li>Any animal or fantasy species</li>
+            <li>Any part can be jelly</li>
+            <li>Any type of eyes</li>
+            <li>Gems on the face</li>
+            <li>Gender-neutral appearance</li>
+          </ul>
+        </div>
+      </div>
+      <div class="spc u">
+        <div class="spc-stage">
+          <div class="spc-blob"></div>
+          <div class="spc-img" onclick="openLb('UniAlies example','',this)">
+            <!-- REPLACE: assets/jellies/unialie.png -->
+            <div class="art-ph pp" style="width:100%;aspect-ratio:1/1;border-radius:50%"><div class="phi" style="font-size:2.5rem">🦄</div><div class="phl">assets/jellies/unialie.png</div><div class="phb">+ Upload</div></div>
+          </div>
+        </div>
+        <div class="spc-body">
+          <h3>UniAlies</h3>
+          <span class="spc-badge">Private species — not available</span>
+          <ul class="stl">
+            <li>Only 1 horn</li>
+            <li>One specific species only</li>
+            <li>Only specific parts are jelly</li>
+            <li>One type of eyes</li>
+            <li>Antennas</li>
+            <li>Males and females differ</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="warn">⚠️ Jellies are NOT UniAlies! They are two completely separate species!</p>
+
+    <!-- How to get -->
+    <p class="subh lm">How to get a Jelli? 💚</p>
+    <div class="get-grid">
+      <div class="gc"><h3>Adopts</h3><p>Pre-made Jellies for adoption! Follow my socials to not miss any.</p></div>
+      <div class="gc"><span class="spill">OPEN</span><h3>Custom on Base</h3><span class="gp price" data-eur="45" data-usd="50">45€</span><p>DM me to claim your slot!</p></div>
+      <div class="gc"><span class="spill">1/3 OPEN</span><h3>Custom by Hand</h3><span class="gp price" data-eur="80" data-usd="88">80€+</span><p>Hand-drawn custom. DM to claim!</p></div>
+      <div class="gc"><span class="spill">3/3 OPEN</span><h3>Bundle</h3><span class="gp">off 20€!</span><p>Order a custom + reference sheet and get 20€ off! DM for info.</p></div>
+      <div class="gc"><h3>Events</h3><p>Time to time I host events where you can win MYO or pre-made Jelli!</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════
+     TOS
+══════════════════════════════ -->
+<section class="section" id="tos">
+  <div class="container--narrow">
+    <span class="section-eyebrow">Please read before ordering</span>
+    <h2 class="section-title">Terms of Service</h2>
+    <p class="section-sub">By commissioning me you agree to all of the below ✨</p>
+
+    <div class="tos-accordion">
+
+      <details class="tos-item">
+        <summary>
+          <span class="tos-icon">📋</span>
+          <span>General &amp; Usage</span>
+          <span class="tos-chevron">›</span>
+        </summary>
+        <div class="tos-body">
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Right to Refuse:</strong> I reserve the right to decline any commission — uncomfortable subject matter, rude behavior, or style mismatch.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Personal Use Only:</strong> Commissions are for personal use (PFPs, wallpapers, home prints). No selling or profiting from my artwork.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Commercial Use:</strong> Streaming assets, merch, branding? Contact me to discuss the commercial fee!</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>NO AI Training:</strong> My artwork is strictly prohibited from AI training or machine learning datasets of any kind.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Modifications:</strong> No editing, tracing, or altering my artwork without permission.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Copyright:</strong> I retain full copyright and may post finished commissions on my portfolio and social media.</div></div>
+        </div>
+      </details>
+
+      <details class="tos-item">
+        <summary>
+          <span class="tos-icon">💳</span>
+          <span>Payment</span>
+          <span class="tos-chevron">›</span>
+        </summary>
+        <div class="tos-body">
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Method:</strong> Payments via PayPal in CZK currency.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Timing:</strong> Payment required after sketch approval — lining/coloring starts only after payment.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Payment Plans:</strong> Split payments for orders over €100 only. Schedule agreed individually.</div></div>
+        </div>
+      </details>
+
+      <details class="tos-item">
+        <summary>
+          <span class="tos-icon">🎨</span>
+          <span>Process, Revisions &amp; WIPs</span>
+          <span class="tos-chevron">›</span>
+        </summary>
+        <div class="tos-body">
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Workflow:</strong> I send frequent WIP updates so you can guide the art in the right direction!</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Trello:</strong> Track your commission on my <a href="https://trello.com/b/EfwCAq4F/" target="_blank" class="tos-link">Trello board</a>.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Sketch Phase:</strong> Major changes (pose, composition, design) are free!</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Coloring Phase:</strong> Minor color tweaks only.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Finished Piece:</strong> No edits once done, or subject to additional fee.</div></div>
+        </div>
+      </details>
+
+      <details class="tos-item">
+        <summary>
+          <span class="tos-icon">🔄</span>
+          <span>Refunds &amp; Cancellations</span>
+          <span class="tos-chevron">›</span>
+        </summary>
+        <div class="tos-body">
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Artist Cancellation:</strong> Full refund if I can't complete your commission.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Before payment/work starts:</strong> Free to cancel, no charge!</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>After sketch &amp; payment:</strong> 50% refund depending on work completed.</div></div>
+          <div class="tos-row"><span class="tos-bullet">→</span><div><strong>Completed artwork:</strong> No refunds issued.</div></div>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ── FOOTER ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-logo">🍋 Limie.Arts</div>
+    <p class="footer-sub">Digital art & character design · Open for commissions</p>
+    <div class="footer-socials">
+      <a href="https://instagram.com/YOUR_HANDLE" target="_blank" title="Instagram">IG</a>
+      <a href="https://patreon.com/YOUR_HANDLE" target="_blank" title="Patreon">PT</a>
+      <a href="https://bsky.app/profile/YOUR_HANDLE" target="_blank" title="BlueSky">BS</a>
+      <a href="https://www.furaffinity.net/user/YOUR_HANDLE" target="_blank" title="FurAffinity">FA</a>
+      <a href="https://tiktok.com/@YOUR_HANDLE" target="_blank" title="TikTok">TK</a>
+    </div>
+    <p class="footer-copy">© 2025 Limie.Arts · All artwork rights reserved · No AI training.</p>
+  </div>
+</footer>
+
+
+<!-- ── LIGHTBOX ── -->
+<div class="lb" id="lb" onclick="closeLb(event)">
+  <div class="lb-box">
+    <button class="lb-x" onclick="closeLb()">✕</button>
+    <div class="lb-img" id="lb-img"></div>
+    <div class="lb-foot"><span class="lb-title" id="lb-t"></span><span class="lb-price" id="lb-p"></span></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
